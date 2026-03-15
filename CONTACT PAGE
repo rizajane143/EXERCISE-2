@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Page</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#eeeeee;
+    margin:0;
+}
+
+/* HEADER */
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+.logo{
+    border:2px solid black;
+    border-radius:40px;
+    padding:5px 20px;
+    font-weight:bold;
+}
+
+.nav a{
+    text-decoration:none;
+    margin-left:25px;
+    color:pink;
+}
+
+/* BANNER */
+.banner{
+    height:220px;
+    margin:20px;
+    border:3px solid #7a5cff;
+    background:linear-gradient(to right,#3f00ff,#7a00ff);
+    border-radius:8px;
+}
+
+/* MAIN SECTION */
+.main{
+    display:flex;
+    justify-content:space-between;
+    margin:20px;
+}
+
+/* LEFT BOX */
+.left-box{
+    width:45%;
+    border:3px solid #7a5cff;
+    height:260px;
+}
+
+/* RIGHT BOX */
+.right-box{
+    width:45%;
+    border:3px solid #7a5cff;
+    padding:15px;
+}
+
+/* SOCIAL BOXES */
+.social{
+    border:2px solid #7a5cff;
+    height:20px; 
+    width:50%;
+    margin-bottom:15px;
+    padding:5px;
+    background:#e9e9e9;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* TikTok box smaller */
+.tiktok{
+    height:17px; 
+    width:17%;
+}
+
+/* FOOTER */
+.footer{
+    text-align:center;
+    border-top:3px solid #7a5cff;
+    padding:10px;
+    color:#5b3cff;
+    font-weight:bold;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<div class="logo">Website</div>
+<div class="nav">
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</div>
+</div>
+
+<div class="banner"></div>
+
+<div class="main">
+<div class="left-box"></div>
+
+<div class="right-box">
+<div class="social"></div>
+<div class="social"></div>
+<div class="social tiktok"></div>
+</div>
+</div>
+
+<div class="footer">
+© 2026 All rights reserved.
+</div>
+
+</body>
+</html>
